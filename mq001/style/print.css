@@ -1,2 +1,23 @@
 @charset "UTF-8";
 
+/* Estilo para Impressoras */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.5em;
+    line-height: 1.5em;
+}
+
+menu {
+    display: none;
+}
+
+article::after{
+    content: "impresso através do site curso em video, dia 01/01/2021";
+}
+
